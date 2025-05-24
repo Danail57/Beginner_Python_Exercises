@@ -1,0 +1,7 @@
+number_of_lines = int(input())
+total_sum_of_ASCII = 0
+
+for letter_per_line in range(number_of_lines):
+    letter = input()
+    total_sum_of_ASCII += ord(letter)
+print(f'The sum equals: {total_sum_of_ASCII}')
