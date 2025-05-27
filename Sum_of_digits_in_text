@@ -1,0 +1,8 @@
+text = input()
+total_sum = 0
+
+digits_indices = []
+for symbol in text:
+    if symbol.isdigit():
+        total_sum += int(symbol)
+print(f'The sum of digits is {total_sum}')
