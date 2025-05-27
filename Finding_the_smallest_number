@@ -1,0 +1,7 @@
+number = int(input())
+digits = list(str(number))
+
+digits.sort()
+smallest_number = int(''.join(digits))
+
+print(smallest_number)
