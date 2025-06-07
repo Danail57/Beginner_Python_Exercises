@@ -1,0 +1,7 @@
+day_time = int(input())
+week_day = input()
+
+if 10 <= day_time <= 18 and week_day in ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]:
+    print('open')
+else:
+    print('closed')
