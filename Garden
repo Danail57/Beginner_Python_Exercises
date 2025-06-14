@@ -1,0 +1,43 @@
+ROSES = 5
+DAHLIAS = 3.80
+TULIPS = 2.80
+NARCISSUS = 3
+GLADIOLUS = 2.50
+
+
+flower_type = input()
+flower_count = int(input())
+budget = float(input())
+
+
+if flower_type == "Roses":
+    price = ROSES * flower_count
+    if flower_count > 80:
+        price *= 0.90
+elif flower_type == "Dahlias":
+    price = DAHLIAS * flower_count
+    if flower_count > 90:
+        price *= 0.85
+elif flower_type == "Tulips":
+    price = TULIPS * flower_count
+    if flower_count > 80:
+        price *= 0.85
+elif flower_type == "Narcissus":
+    price = NARCISSUS * flower_count
+    if flower_count < 120:
+        price *= 1.15
+elif flower_type == "Gladiolus":
+    price = GLADIOLUS * flower_count
+    if flower_count < 80:
+        price *= 1.20
+else:
+    print("Error: Invalid flower type")
+    exit()
+
+
+if budget >= price:
+    remaining_budget = budget - price
+    print(f"Hey, you have a great garden with {flower_count} {flower_type} and {remaining_budget:.2f} leva left.")
+else:
+    needed_money = price - budget
+    print(f"Not enough money, you need {needed_money:.2f} leva more.")
