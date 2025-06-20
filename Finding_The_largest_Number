@@ -1,3 +1,6 @@
+Write a program that reads an integer number, rearranges its digits in descending order, 
+and prints the largest possible number that can be formed using those digits.
+
 number = int(input())
 digits = list(str(number))
 
