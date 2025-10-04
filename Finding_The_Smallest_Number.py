@@ -1,0 +1,10 @@
+# Write a program that reads an integer number, rearranges its digits in ascending order, 
+# and prints the smallest possible number that can be formed using those digits.
+
+number = int(input())
+digits = list(str(number))
+
+digits.sort()
+smallest_number = int(''.join(digits))
+
+print(smallest_number)
