@@ -1,10 +1,3 @@
-You are helping the well-known flower shop in town customer decide if they can afford a bouquet with their budget.
-Write a program that:
-- Accepts the type of flower, number of flowers, and budget.
-- Calculates the total price based on the flower type and quantity.
-- Applies discounts or surcharges based on specific conditions.
-- Compares the total price to the budget and prints whether the customer has enough money.
-
 
 
 ROSES = 5
