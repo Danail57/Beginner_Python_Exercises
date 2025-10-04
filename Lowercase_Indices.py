@@ -1,4 +1,4 @@
-Write a program that reads a string and finds the indices of all lowercase letters in the text.
+# Write a program that reads a string and finds the indices of all lowercase letters in the text.
 
 text = input()
 
