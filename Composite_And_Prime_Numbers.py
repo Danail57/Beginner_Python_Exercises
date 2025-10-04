@@ -1,7 +1,7 @@
-Write a program that reads an integer number and determines if it is prime, composite, or neither.
-- Numbers less than 2 are neither prime nor composite.
-- A prime number has no divisors other than 1 and itself.
-- A composite number has at least one divisor other than 1 and itself.
+#Write a program that reads an integer number and determines if it is prime, composite, or neither.
+#- Numbers less than 2 are neither prime nor composite.
+#- A prime number has no divisors other than 1 and itself.
+#- A composite number has at least one divisor other than 1 and itself.
 
 
 
