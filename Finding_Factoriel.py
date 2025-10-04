@@ -1,6 +1,6 @@
-Write a program that reads an integer number and calculates its factorial.
-If the number is negative, print an error message.
-Otherwise, compute and print the factorial of the number using Python’s math.factorial() function.
+# Write a program that reads an integer number and calculates its factorial.
+# If the number is negative, print an error message.
+# Otherwise, compute and print the factorial of the number using Python’s math.factorial() function.
 
 import math
 number = int(input("Enter a number: "))
