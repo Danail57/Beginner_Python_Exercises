@@ -1,5 +1,5 @@
-Write a program that reads a number N, then reads N characters (one per line), 
-calculates the sum of their ASCII values, and prints the total sum.
+# Write a program that reads a number N, then reads N characters (one per line), 
+# calculates the sum of their ASCII values, and prints the total sum.
 
 number_of_lines = int(input())
 total_sum_of_ASCII = 0
