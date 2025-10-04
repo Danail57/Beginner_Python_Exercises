@@ -1,5 +1,5 @@
-Write a program that reads a list of integers and checks whether
-the sum of the digits at even indices is equal to the sum of the digits at odd indices.
+# Write a program that reads a list of integers and checks whether
+# the sum of the digits at even indices is equal to the sum of the digits at odd indices.
 
 digits = list(map(int,input().split()))
 total_sum_even = 0
