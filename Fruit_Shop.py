@@ -1,9 +1,9 @@
-Write a program that reads:
+# Write a program that reads:
 
-- A fruit name,
-- A day of the week,
-- A quantity (float),
-and calculates the total price for that quantity of the fruit on the given day.
+#- A fruit name,
+#- A day of the week,
+# - A quantity (float),
+# and calculates the total price for that quantity of the fruit on the given day.
 
 
 fruit = input()
