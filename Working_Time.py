@@ -1,4 +1,4 @@
-Write a program that checks whether a shop is open or closed based on the current time and day of the week.
+# Write a program that checks whether a shop is open or closed based on the current time and day of the week.
 
 day_time = int(input())
 week_day = input()
