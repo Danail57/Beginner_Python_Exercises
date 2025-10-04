@@ -1,10 +1,10 @@
-Write a program that reads a string and calculates the sum of values assigned to each vowel in the string.
-The vowel values are:
-a = 1
-e = 2
-i = 3
-o = 4
-u = 5
+# Write a program that reads a string and calculates the sum of values assigned to each vowel in the string.
+# The vowel values are:
+# a = 1
+# e = 2
+# i = 3
+# o = 4
+# u = 5
 
 text = input()
 
