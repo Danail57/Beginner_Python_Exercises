@@ -1,4 +1,4 @@
-Write a program that reads a string and calculates the sum of all digits found within the string.
+# Write a program that reads a string and calculates the sum of all digits found within the string.
 
 text = input()
 total_sum = 0
