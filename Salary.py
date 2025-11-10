@@ -1,9 +1,9 @@
-You're given a starting salary and a number of browser tabs that an employee has opened during work.
-Each time the employee opens a social media site, their salary is reduced by a fixed amount:
-- Facebook → 150 leva - 75 euro
-- Instagram → 100 leva - 50 euro
-- Reddit → 50 leva - 25 euro
-If at any point the salary becomes zero or less, the program should stop checking further
+# You're given a starting salary and a number of browser tabs that an employee has opened during work.
+# Each time the employee opens a social media site, their salary is reduced by a fixed amount:
+# - Facebook → 150 leva - 75 euro
+# - Instagram → 100 leva - 50 euro
+# - Reddit → 50 leva - 25 euro
+# If at any point the salary becomes zero or less, the program should stop checking further
 
 FACEBOOK = 150
 INSTAGRAM = 100
